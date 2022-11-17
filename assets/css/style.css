@@ -128,10 +128,10 @@ h6 {
   margin-left: 300px;
 }
 
-@media (max-width: 1199px) {
+/*@media (max-width: 1199px) {
   #header {
     left: -300px;
-  }
+  }*/
 
   #main {
     margin-left: 0;
@@ -1077,7 +1077,7 @@ section {
   position: fixed;
   left: 0;
   bottom: 0;
-  width: 300px;
+  width: 100%;
   z-index: 9999;
   background: #040b14;
 }
@@ -1099,4 +1099,12 @@ section {
     width: auto;
     padding-right: 20px 15px;
   }
+}
+
+/*--------------------------------------------------------------
+# Editado
+--------------------------------------------------------------*/
+
+.descer{
+  margin-top: 200px;
 }
